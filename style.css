@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
+}
+
+h2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.common-padding {
+    padding: 0px 240px;
+}
+
+.nav-section {
+    background-color: #ffc0cb4f;
+}
+
+.nav-items-div {
+    padding: 8px 24px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.nav-items-div li {
+    list-style: none;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.mt-128 {
+    margin-top: 128px;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    padding-top: 50px;
+}
+
+.first-div-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.first-div-left h1 {
+    font-size: 65px;
+    line-height: 1;
+}
+
+.first-div-right {
+    width: 50%;
+}
+
+.first-div-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.common-btn {
+    display: inline-block;
+    width: 125px;
+    padding: 12px;
+    background-color: #E55473;
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.featured-heading {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.featured-heading {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.single-featured-div img {
+    width: 100%;
+    height: 100%;
+    padding: 78px 78px 0px 78px;
+    margin-bottom: 16px;
+
+}
+
+.single-featured-div {
+    width: 33%;
+    height: 400px;
+    text-align: center;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.featured-div {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.featured-div a {
+    margin-top: 32px;
+}
+
+.single-featured-div.first {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.single-featured-div.second {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.single-featured-div.third {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.third-section {}
+
+.third-section-div {
+    background: rgba(39, 39, 39, 0.05);
+
+    display: flex;
+
+    justify-content: space-between;
+    padding: 86px;
+    text-align: center;
+}
+
+.hot-deal-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.05);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hot-deal-left {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.hot-deal-left .common-btn {
+    margin: 0 auto;
+}
+
+.hot-deal-right {
+    width: 48%;
+    text-align: center;
+}
+
+.hot-deal-left h2 span {
+    color: #E55473;
+}
+
+.insta-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.instagram-div {
+    width: 25%;
+    margin-top: 48px;
+}
+
+.instagram-div img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.instagram-div.-first {
+    background: lightgray 50%;
+}
+
+.subscribe-section {
+    background-image: url("./Flower-Asset/Rectangle\ 9.png");
+    text-align: center;
+    padding: 122px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input-div {
+    margin-top: 32px;
+}
+
+input#email {
+    width: 600px;
+    padding: 13px;
+    border: 0px;
+    border-radius: 8px;
+}
+
+.footer-div {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.footer-section {
+    background-color: #111010;
+}
+
+.footer-heading {
+    color: #fff;
+}
+
+.footer-heading span {
+    color: #E55473;
+}
+
+.footer-div p {
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.footer-div p span {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+}
